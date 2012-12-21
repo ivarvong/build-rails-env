@@ -10,8 +10,8 @@ add-apt-repository ppa:pitti/postgresql
 apt-get update
 apt-get install postgresql libpq-dev
 
-echo "use the '\password' command to set a password for the postgres user. write it down somewhere!"
-sudo -u postgres psql
+#echo "use the '\password' command to set a password for the postgres user. write it down somewhere!"
+#sudo -u postgres psql
 
 add-apt-repository ppa:chris-lea/node.js
 apt-get update
