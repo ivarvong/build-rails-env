@@ -18,7 +18,7 @@ apt-get update
 apt-get -y install nodejs
 
 echo "adding deployer user..."
-adduser deployer --ingroup admin
+adduser deployer --ingroup sudo
 
 su deployer
 cd ~
