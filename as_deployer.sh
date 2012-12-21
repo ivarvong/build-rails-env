@@ -2,9 +2,7 @@ echo "installing rbenv..."
 
 curl -L https://raw.github.com/fesplugas/rbenv-installer/master/bin/rbenv-installer | bash
 
-curl -O https://raw.github.com/ivarvong/build-rails-env/master/dotbashrc 
-echo dotbashrc >> ~/.bashrc
-
+curl https://raw.github.com/ivarvong/build-rails-env/master/dotbashrc > ~/.bashrc
 source ~/.bashrc
 
 rbenv bootstrap-ubuntu-12-04
