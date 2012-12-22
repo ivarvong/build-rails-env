@@ -7,7 +7,7 @@ add-apt-repository ppa:chris-lea/node.js
 
 apt-get update
 
-apt-get -y install postgresql libpq-dev
+apt-get -y install postgresql-9.2 libpq-dev
 apt-get -y install nodejs
 apt-get -y install nginx
 apt-get -y install memcached
