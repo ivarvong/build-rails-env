@@ -13,6 +13,8 @@ apt-get -y install nginx
 apt-get -y install memcached
 apt-get -y install redis-server
 
+apt-get -y install libxslt-dev libxml2-dev
+
 service nginx start
 
 adduser deployer --ingroup sudo
